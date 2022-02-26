@@ -56,6 +56,35 @@
   font-size: 1.5rem;
 }
 
+.text__timer {
+  font-size: 20rem;
+  color: #0070f3;
+}
+
+.container__button {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 24px;
+}
+
+.container__button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0070f3;
+  color: #fff;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container__button button:hover {
+  filter: brightness(0.7);
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -112,5 +141,8 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .text__timer {
+    font-size: 6rem;
   }
 }
